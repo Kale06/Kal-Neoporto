@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #3d3939;
-  background-color: #F1D9D9;
+  background-color: #f1d9d9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,31 +54,36 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
 @font-face {
   font-family: zttalk;
-  src: url('./assets/fonts/ZTTalk-Medium.ttf');
+  src: url("./assets/fonts/ZTTalk-Medium.ttf");
   font-style: normal; /* Set the font style to normal */
   font-weight: 400; /* Set the font weight to 400 */
 }
 
 @font-face {
   font-family: zttalk;
-  src: url('./assets/fonts/ZTTalk-MediumItalic.ttf');
+  src: url("./assets/fonts/ZTTalk-MediumItalic.ttf");
   font-style: italic; /* Set the font style to italic */
   font-weight: 400; /* Set the font weight to 400 */
 }
 
 @font-face {
   font-family: wosker;
-  src: url('./assets/fonts/Wosker.otf');
+  src: url("./assets/fonts/Wosker.otf");
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
-p{
+p {
   font-family: zttalk, Helvetica;
   line-height: 1;
 }
