@@ -18,7 +18,7 @@ export function Kohead() {
         className="kohead"
         style={{
           minWidth: "280px",
-          width: "30%",
+          width: "26%",
         }}
         src={kohead}
         alt="Kohead"
