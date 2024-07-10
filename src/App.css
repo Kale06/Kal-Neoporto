@@ -77,6 +77,11 @@ header ul {
   scale: 1.2;
 }
 
+.invisible:active {
+  color: var(--teal);
+  scale:0.95;
+}
+
 .line {
   background: var(--font);
   height: 1px;
