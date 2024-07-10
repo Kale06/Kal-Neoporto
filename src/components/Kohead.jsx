@@ -17,8 +17,8 @@ export function Kohead() {
       <img
         className="kohead"
         style={{
-          minWidth: "350px",
-          width: "27%",
+          minWidth: "280px",
+          width: "30%",
         }}
         src={kohead}
         alt="Kohead"
