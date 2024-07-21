@@ -10,6 +10,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineQuestionMark } from "react-icons/md";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function App() {
   useEffect(() => {
@@ -113,6 +114,7 @@ function App() {
         <Kohead />
       </Container>
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }

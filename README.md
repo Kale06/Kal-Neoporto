@@ -7,5 +7,6 @@ Deployed using Vercel. Built with React, MUI, and AnimeJS.
 ## Changelogs
 **21/07/2024**
 - Added Vercel Analytics to monitor the web's traffics.
+- Added Vercel Speed Analytics to monitor the web's performance.
 - CC BY license is added.
 - Kobold is still peeking as usual.
