@@ -76,7 +76,7 @@ function App() {
               <Divider><MdOutlineQuestionMark /> </Divider>
               <p style={{
                 maxWidth: '500px'
-              }}>IT Student concentrating in Software Engineering, I like twiddling with computers, listen to metal music, and scrounging through teh interwebz. Aspiring to work as a System Architect, DevOps, Cloud Engineer, or Software Engineer.</p>
+              }}>IT Student concentration on Software Engineering, currently interning in BASF DHKL as a testing and QA intern, mainly documenting, creating, and running performance tests. I like twiddling with computers, listening to metal music, and scrounging through teh interwebz. Aspiring to work as a DevOps, Infrastructure Specialist, or Software Engineer.</p>
             </div>
             <div style={{
               padding: '10px'
