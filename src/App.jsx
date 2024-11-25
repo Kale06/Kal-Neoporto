@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import anime from "animejs";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { MdBook, MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineQuestionMark } from "react-icons/md";
 import { Analytics } from "@vercel/analytics/react"
@@ -105,6 +105,9 @@ function App() {
                 </button>
                 <button onClick={() => { window.open("mailto:muhammad.haikal100602@gmail.com") }} className="invisible">
                   <MdEmail size={40} />
+                </button>
+                <button onClick={() => { window.open("https://www.kalzone.vercel.app") }} className="invisible">
+                  <MdBook size={40} />
                 </button>
               </div>
 
