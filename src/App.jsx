@@ -106,7 +106,7 @@ function App() {
                 <button onClick={() => { window.open("mailto:muhammad.haikal100602@gmail.com") }} className="invisible">
                   <MdEmail size={40} />
                 </button>
-                <button onClick={() => { window.open("https://www.kalzone.vercel.app") }} className="invisible">
+                <button onClick={() => { window.open("https://kalzone.vercel.app") }} className="invisible">
                   <MdBook size={40} />
                 </button>
               </div>
