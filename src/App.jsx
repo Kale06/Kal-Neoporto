@@ -84,9 +84,9 @@ function App() {
               <Divider>
                 <h4>Poke me</h4>
               </Divider>
-              <p style={{
+{/*               <p style={{
                 fontSize: '10pt'
-              }}>(As in metaphorically, not in a literal sense, you get what I'm trying to say. ....Right?)</p>
+              }}>(As in metaphorically, not in a literal sense, you get what I'm trying to say. ....Right?)</p> */}
               <div style={{
                 display: 'flex',
                 alignItems: 'center',
