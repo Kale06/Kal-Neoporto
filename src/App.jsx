@@ -1,7 +1,7 @@
 import { Container, Divider, Grid } from "@mui/material";
 import "./App.css";
 import { Layout } from "./Layout";
-import { Kohead } from "./components/Kohead";
+// import { Kohead } from "./components/Kohead";
 import { useEffect } from "react";
 import anime from "animejs";
 import { FaLinkedin } from "react-icons/fa";
@@ -21,12 +21,12 @@ function App() {
       duration: 1000,
       easing: "easeOutQuad(1, 0.75, 0, 1)",
     })
-    anime({
-      targets: ".kohead-div",
-      translateY: [180, 0],
-      duration: 750,
-      easing: "easeOutQuad(1, 0.75, 0, 1)",
-    })
+    // anime({
+    //   targets: ".kohead-div",
+    //   translateY: [180, 0],
+    //   duration: 750,
+    //   easing: "easeOutQuad(1, 0.75, 0, 1)",
+    // })
     anime({
       targets: "h1",
       translateY: [-100, 0],
@@ -114,7 +114,7 @@ function App() {
             </div>
           </div>
         </Layout>
-        <Kohead />
+{/*         <Kohead /> */}
       </Container>
       <Analytics />
       <SpeedInsights />
