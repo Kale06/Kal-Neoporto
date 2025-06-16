@@ -1,31 +1,31 @@
 import { Container } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import anime from "animejs";
 
 export function Header() {
+
+  const navigate = useNavigate();
+
   useEffect(() => {
     anime({
-      targets: ".kal-header",
-      translateY: [-50, 0],
+      targets: "header",
+      translateY: [-25, 0],
       opacity: [0, 1],
       duration: 500,
       easing: "easeOutQuad", 
     })
   }, []);
 
+  function reloadSite(){
+    navigate('/');
+  }
+
   return (
     <header>
-      <Container maxWidth="lg">
-        <p className="kal-header" style={{
-          padding:'15px',
-          fontSize:'10pt',
-          color:'var(--teal)',
-        }}>This website was lovingly made using <b style={{
-          color:'black'
-        }}>React, AnimeJS, MUI,</b> and <b style={{
-          color:'black'
-        }}>Vercel</b></p>
-      </Container>
+      <button onClick={reloadSite} className="invis logo">
+        haikaaal.vercel.app
+      </button>
     </header>
   );
 }
