@@ -17,8 +17,44 @@ header {
   padding: 25px 0px;
 }
 
+footer{
+  margin: 3rem 0;
+  text-align: center;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h3 {
+    font-family: "Gruppo", sans-serif;
+}
+
+footer div{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+footer a{
+  margin: 0rem 0.7rem;
+  color: white;
+  cursor: pointer;
+  transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+footer a:hover{
+  scale: 1.5;
+}
+
 header h3 {
   padding: 0px 20px;
+}
+
+.possing-container{
+  display: flex ;
+  align-items: start;
+  justify-content: center;
 }
 
 .navigator{
@@ -40,6 +76,12 @@ header h3 {
   background-color: var(--primary);
   z-index: 2;
   position: relative;
+  opacity: 0%;
+}
+
+.sub {
+  font-weight: 100;
+  color: var(--teal);
 }
 
 .logo {
@@ -64,6 +106,7 @@ header h3 {
 
 #lefty {
   width: 20%;
+  opacity: 0%;
   background-color: var(--secondary);
   height: fit-content;
   padding: 10px 10px;
@@ -80,12 +123,16 @@ p{
 /* Phone Configurations */
 
 @media screen and (max-width: 1000px) {
-  #lefty{
-    display: none;
+  .possing-container{
+    flex-direction: column;
   }
 
-  #righty {
-    width:100%;
+  #lefty{
+    width: 90%;
+  }
+
+  #righty{
+    width:90%;
   }
 }
 
@@ -113,7 +160,6 @@ p{
 }
 
 .item-container .sub {
-  font-weight: 100;
   color: rgb(117, 108, 151);
 }
 
@@ -126,3 +172,4 @@ p{
 .item-container img{
   max-height: 50px;
 }
+
