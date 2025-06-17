@@ -3,7 +3,7 @@ import "../App.css";
 import { useEffect } from "react";
 import anime from "animejs";
 import { Frame } from "../components/Frame";
-import { Barrier } from "../components/barrier";
+import { Barrier } from "../components/Barrier";
 import { Line } from "../components/Line";
 import { ItemContainer } from "../components/ItemContainer";
 import { MdLaunch } from "react-icons/md";
