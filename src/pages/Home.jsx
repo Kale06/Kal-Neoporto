@@ -86,7 +86,7 @@ function Home() {
                 </div>
               </ItemContainer>
               <Divider component="li" variant="fullwidth" />
-              <h1>Projects/Personal Works</h1>
+              <h1>Projects/ Personal Works</h1>
               <Barrier />
                 <Grid style={{
                   justifyContent:"space-around"
