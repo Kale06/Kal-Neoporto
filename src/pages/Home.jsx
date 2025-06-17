@@ -2,15 +2,10 @@ import { Container, Divider } from "@mui/material";
 import "../App.css";
 import { useEffect } from "react";
 import anime from "animejs";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithubAlt } from "react-icons/fa";
-import { MdBook, MdEmail } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
-import { MdOutlineQuestionMark } from "react-icons/md";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Frame } from "../components/Frame";
 import { Barrier } from "../components/barrier";
+import { Line } from "../components/Line";
+import { ItemContainer } from "../components/ItemContainer";
 
 function Home() {
   useEffect(() => {
@@ -20,6 +15,13 @@ function Home() {
       backgroundColor: "#000000",
       duration: 1000,
       easing: "easeOutQuad(1, 0.75, 0, 1)",
+    });
+    anime({
+        targets:".line",
+        width:"100%",
+        duration: 800,
+        delay: anime.stagger(150),
+        easing: "easeOutQuad(1, 0.75, 0, 1)",
     })
   }, []);
 
@@ -30,14 +32,15 @@ function Home() {
         display:"flex"
       }} maxWidth="lg">
         <div id="lefty" className="containerItem">
-            <h4>Current status</h4>
+            <p>Current status</p>
             <h3>Open to work</h3>
-            <p>About Me</p>
+            <Barrier />
+            <p>Currently situated at</p>
+            <h3>Jakarta</h3>
         </div>
         <div id="righty" className="containerItem">
         <Frame>
-            <h1>Howdy</h1>
-            <h1>there stranger.</h1>
+            <h1>Howdy.👋</h1>
             <Barrier />
             <p>
                 I'm Muhammad Haikal, a fresh graduate Information
@@ -50,6 +53,15 @@ function Home() {
             <Barrier />
             <Divider component="li" variant="fullwidth" />
             <h1>Work</h1>
+            <ItemContainer>
+              <img src="/img/BASFLogo.png" />
+              <h3>IT and Digitalization Intern</h3>
+              <h4>BASF Asia Pacific Service Centre Sdn Bhd</h4>
+              <div className="sub-details">
+                <p className="sub">Aug 2024 - Apr 2025</p>
+                <p className="sub">Kuala Lumpur, Malaysia</p>
+              </div>
+            </ItemContainer>
             <Divider component="li" variant="fullwidth" />
             <h1>Projects</h1>
             <Divider component="li" variant="fullwidth" />
@@ -57,8 +69,12 @@ function Home() {
         </Frame>
         </div>
       </Container>
-      <Analytics />
-      <SpeedInsights />
+      <div className="line-container">
+        <Line backgroundColor="red" height="60px"/>
+        <Line backgroundColor="blue" height="50px"/>
+        <Line backgroundColor="yellow" height="20px"/>
+        <Line backgroundColor="green" height="10px"/>
+      </div>
     </div>
   );
 }

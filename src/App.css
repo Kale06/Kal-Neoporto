@@ -36,6 +36,12 @@ header h3 {
   height: min-content;
 }
 
+.frame {
+  background-color: var(--primary);
+  z-index: 2;
+  position: relative;
+}
+
 .logo {
   font-size: 25px;
   font-family: "Gruppo", sans-serif;
@@ -81,4 +87,42 @@ p{
   #righty {
     width:100%;
   }
+}
+
+.line {
+  width: 0%;
+  height: 40px;
+}
+
+.line-container {
+  width:100%;
+  position: absolute;
+  top: 70%;
+  z-index: 0;
+}
+
+/* Item Container Settings */
+.item-container{
+  margin: 8px 0px;
+  background-color: var(--secondary);
+  padding: 20px 10px;
+}
+
+.item-container h4 {
+  font-weight: 300;
+}
+
+.item-container .sub {
+  font-weight: 100;
+  color: rgb(117, 108, 151);
+}
+
+.item-container .sub-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-container img{
+  max-height: 50px;
 }
