@@ -45,6 +45,7 @@ footer a{
 
 footer a:hover{
   scale: 1.5;
+  color: white;
 }
 
 header h3 {
