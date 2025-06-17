@@ -6,13 +6,13 @@ export function Footer() {
         <footer>
             <h3>Give me a poke</h3>
             <div>
-            <a>
+            <a target="_blank" href="https://www.linkedin.com/in/kaaal/">
                 <FaLinkedin fontSize={"30px"}/>
             </a>
-            <a>
+            <a target="_blank" href="mailto:muhammad.haikal100602@gmail.com">
                 <MdEmail fontSize={"30px"}/>
             </a>
-            <a>
+            <a target="_blank" href="https://github.com/kale06">
                 <FaGithubAlt fontSize={"30px"}/>
             </a>
             </div>
