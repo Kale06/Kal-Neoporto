@@ -182,6 +182,15 @@ function Home() {
               </ItemContainer>
               <ItemContainer>
                 <div className="sub-details">
+                  <h3>Innovate - IT 2024 Deputy Dean of Student's Choice of Final Year Project Award</h3>
+                  <a target="blank" href="https://soc.uum.edu.my/news-events/news-soc/842-innovate-it-2024">
+                    <MdLaunch />
+                  </a>
+                </div>
+                <p className="sub">Universiti Utara malaysia</p>
+              </ItemContainer>
+              <ItemContainer>
+                <div className="sub-details">
                   <h3>NeRACA Catch the Flag top 5 Finalist</h3>
                   <a target="blank" href="https://soc.uum.edu.my/news-events/events/749-northern-region-rawsec-cybersecurity-awareness-tour-neraca">
                       <MdLaunch />
@@ -242,7 +251,7 @@ function Home() {
                   <ItemContainer>
                     <h3>Deployment</h3>
                     <p>
-                      Azure Pipelines, Ansible, GitHub Actions, Vercel.
+                      Docker, Azure Pipelines, Ansible, GitHub Actions, Vercel.
                     </p>
                   </ItemContainer>
                 </Grid>
