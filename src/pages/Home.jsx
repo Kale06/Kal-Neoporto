@@ -99,6 +99,24 @@ function Home() {
                         alignItems:"start"
                       }}
                       className="sub-details">
+                        <h3>Simple-RTMP</h3>
+                        <a target="blank" href="https://hub.docker.com/repository/docker/kale0602/simple-rtmp/">
+                          <MdLaunch />
+                        </a>
+                      </div>
+                      <p className="sub">
+                          Individual Personal Project
+                      </p>
+                    </ItemContainer>
+                  </Grid>
+                  <Grid xs={15} md={5.8}>
+                    <ItemContainer>
+                      <h4>Project - DevOps</h4>
+                      <div 
+                      style={{
+                        alignItems:"start"
+                      }}
+                      className="sub-details">
                         <h3>Java Web Application Image on Alpine Linux</h3>
                         <a target="blank" href="https://github.com/Kale06/java-web-container">
                           <MdLaunch />
