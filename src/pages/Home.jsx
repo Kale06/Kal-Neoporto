@@ -46,9 +46,9 @@ function Home() {
                   width:"10px",
                   margin:"0 5px",
                   borderRadius: "100%",
-                  backgroundColor:"greenYellow"
+                  backgroundColor:"red"
                 }} />
-                <h3>Open to work</h3>
+                <h3>Currently Employed</h3>
               </div>
               <Barrier />
               <p>Currently situated at</p>
