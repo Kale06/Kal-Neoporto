@@ -1,4 +1,4 @@
-import { Container, Divider, Grid } from "@mui/material";
+import { Chip, Container, Divider, Grid } from "@mui/material";
 import "../App.css";
 import { useEffect } from "react";
 import anime from "animejs";
@@ -69,6 +69,23 @@ function Home() {
               <Barrier />
               <Divider component="li" variant="fullwidth" />
               <h1>Work</h1>
+              <ItemContainer>
+                <Chip label="Active" color="success" />
+                <div style={{
+                  alignItems:"start"
+                }} className="sub-details">
+                  <img src="/img/mittech.png" />
+                  <a target="blank" href="https://mitech.co.id/">
+                    <MdLaunch />
+                  </a>
+                </div>
+                <h3>Junior Performance Tester</h3>
+                <h4>PT. Mandiri International Technology</h4>
+                <div className="sub-details">
+                  <p className="sub">Jul 2025 - Present</p>
+                  <p className="sub">Jakarta Metropolitan Area, Indonesia</p>
+                </div>
+              </ItemContainer>
               <ItemContainer>
                 <div style={{
                   alignItems:"start"
