@@ -25,6 +25,7 @@ export function Header() {
       <button onClick={reloadSite} className="invis logo">
         haikaaal.vercel.app
       </button>
+      
     </header>
   );
 }

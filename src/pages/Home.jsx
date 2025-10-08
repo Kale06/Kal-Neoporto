@@ -205,6 +205,15 @@ function Home() {
               <h1>Additional Information</h1>
               <h2>Certifications</h2>
               <ItemContainer>
+                <div className="sub-details">
+                  <h3>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</h3>
+                  <a target="blank" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=C899C573F71E3C91FC43DF36A362D42510838F619079F22E0823FF5B2A54B5B3">
+                    <MdLaunch />
+                  </a>
+                </div>
+                <p className="sub">Oracle</p>
+              </ItemContainer>
+              <ItemContainer>
                 <h3>International English Language Test System (IELTS)</h3>
                 <p className="sub">Band - 7</p>
               </ItemContainer>
@@ -284,9 +293,9 @@ function Home() {
                 </Grid>
                 <Grid item xs={12} md={3.8}>
                   <ItemContainer>
-                    <h3>Deployment</h3>
+                    <h3>Deployment and Orchestration</h3>
                     <p>
-                      Docker, Azure Pipelines, Ansible, GitHub Actions, Vercel.
+                      Rancher, Docker, Azure Pipelines, Ansible, GitHub Actions.
                     </p>
                   </ItemContainer>
                 </Grid>
@@ -294,7 +303,7 @@ function Home() {
                   <ItemContainer>
                     <h3>Forensics/Monitoring</h3>
                     <p>
-                      Datadog, Ghidra.
+                      Datadog, Kibana Elastisearch, Grafana, Dynatrace, Ghidra.
                     </p>
                   </ItemContainer>
                 </Grid>
