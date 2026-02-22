@@ -9,7 +9,7 @@ export function Footer() {
             <a target="_blank" href="https://www.linkedin.com/in/kaaal/">
                 <FaLinkedin fontSize={"30px"}/>
             </a>
-            <a target="_blank" href="mailto:muhammad.haikal100602@gmail.com">
+            <a target="_blank" href="mailto:md.haikal.kal@gmail.com">
                 <MdEmail fontSize={"30px"}/>
             </a>
             <a target="_blank" href="https://github.com/kale06">
