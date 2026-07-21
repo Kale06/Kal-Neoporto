@@ -46,9 +46,9 @@ function Home() {
                   width:"10px",
                   margin:"0 5px",
                   borderRadius: "100%",
-                  backgroundColor:"red"
+                  backgroundColor:"green"
                 }} />
-                <h3>Currently Employed</h3>
+                <h3>Open to work</h3>
               </div>
               <Barrier />
               <p>Currently situated at</p>
@@ -70,7 +70,7 @@ function Home() {
               <Divider component="li" variant="fullwidth" />
               <h1>Work</h1>
               <ItemContainer>
-                <Chip label="Active" color="success" />
+                {/* <Chip label="Active" color="success" /> */}
                 <div style={{
                   alignItems:"start"
                 }} className="sub-details">
@@ -79,10 +79,10 @@ function Home() {
                     <MdLaunch />
                   </a>
                 </div>
-                <h3>Junior Performance Tester</h3>
+                <h3>Junior Performance Test Engineer</h3>
                 <h4>PT. Mandiri International Technology</h4>
                 <div className="sub-details">
-                  <p className="sub">Jul 2025 - Present</p>
+                  <p className="sub">Jul 2025 - Jul 2026</p>
                   <p className="sub">Jakarta Metropolitan Area, Indonesia</p>
                 </div>
               </ItemContainer>
