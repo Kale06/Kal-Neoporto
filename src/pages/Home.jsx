@@ -46,9 +46,9 @@ function Home() {
                   width:"10px",
                   margin:"0 5px",
                   borderRadius: "100%",
-                  backgroundColor:"green"
+                  backgroundColor:"red"
                 }} />
-                <h3>Open to work</h3>
+                <h3>Currently Employed</h3>
               </div>
               <Barrier />
               <p>Currently situated at</p>
@@ -69,6 +69,23 @@ function Home() {
               <Barrier />
               <Divider component="li" variant="fullwidth" />
               <h1>Work</h1>
+              <ItemContainer>
+                <Chip label="Active" color="success" /> 
+                <div style={{
+                  alignItems:"start"
+                }} className="sub-details">
+                  <img src="/img/bmri.png" />
+                  <a target="blank" href="https://www.bankmandiri.co.id/">
+                    <MdLaunch />
+                  </a>
+                </div>
+                <h3>Officer Development Program - IT</h3>
+                <h4>PT. Bank Mandiri (Persero) Tbk.</h4>
+                <div className="sub-details">
+                  <p className="sub">Aug 2026 - Present</p>
+                  <p className="sub">Jakarta Metropolitan Area, Indonesia</p>
+                </div>
+              </ItemContainer>
               <ItemContainer>
                 {/* <Chip label="Active" color="success" /> */}
                 <div style={{
